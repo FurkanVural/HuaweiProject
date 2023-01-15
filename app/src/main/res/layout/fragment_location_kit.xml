@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_title_margin"
+        android:paddingTop="@dimen/activity_title_margin"
+        android:paddingRight="@dimen/activity_title_margin">
+
+        <TextView
+            style="@style/TitleStyle"
+            android:text="@string/sample_hwlocation_description" />
+
+        <Button
+            android:id="@+id/request_location_updates_with_intent"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="requestLocationUpdatesWithIntent"
+            android:text="@string/request_location_updates_with_intent" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/write_log"
+            style="@style/ButtonStyle"
+            android:onClick="writeLog"
+            android:text="WriteLog" />
+
+        <Button
+            android:id="@+id/coordinate_converter"
+            style="@style/ButtonStyle"
+            android:onClick="coordinateConverter"
+            android:text="CoordinateConverter" />
+    </LinearLayout>
+
+
+</ScrollView>
